@@ -51,6 +51,8 @@
     }
 }
 
+
+
 /* header 2 */
 
 .header-2 {
@@ -162,11 +164,21 @@
     .iphone_16_pro_subhead {
         font-size: 18px;
     }
-
-
-
-
+    
+    .button-primary {
+        width:  107px;
+        height: 36px;
+    }
+    .button-secondary {
+        width: 66px;
+        height: 36px;
+    }
 }
+
+
+
+
+
 
 /* Iphone16 */
 
@@ -179,6 +191,54 @@
     width: 100%;
     background-position: center;
     margin-top: 12px
+}
+
+.iphone_16_headline {
+    display: flex;
+    justify-content: center;
+    padding-top: 55px;
+    font-size: 52px;
+    color: rgba(245, 245, 247, 1);
+}
+
+.iphone_16_subhead {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+    font-size: 24px;
+    color: rgba(245, 245, 247, 1);
+}
+
+.action_links {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.button-primary-iphone16 {
+    width: 123px;
+    height: 44px;
+    border-radius: 120px;
+    background-color: rgba(0, 113, 227, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.button-secondary-iphone16 {
+    width: 68px;
+    height: 44px;
+    border-radius: 120px;
+    border: solid;
+    border-color: rgba(41, 151, 255, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(41, 151, 255, 1);
 }
 
 
