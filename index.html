@@ -4,180 +4,76 @@
 
 <head>
 
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+    <link rel="stylesheet" href="main.css" />
 
-        .Menu {
-            font-size: 12px;
-            color: rgba(0, 0, 0, 1);
-            font-family: ();
-            padding: 24px;
-            margin: auto;
-        }
-
-        .Vector {
-            gap: 24px;
-
-        }
-
-        .Word {
-            color: rgba(245, 245, 247, 1);
-
-        }
-
-        .p1 {
-            display: flex;
-            justify-content: center;
-            padding-top: 55px;
-            font-size: 52px;
-        }
-
-        .p2 {
-            display: flex;
-            justify-content: center;
-            margin-top: 16px;
-            font-size: 24px;
-        }
-
-        .button {
-            display: flex;
-            justify-content: center;
-            gap: 16px;
-            margin-top: 20px;
-            font-size: 16px;
-        }
-
-        .b1 {
-            width: 123px;
-            height: 44px;
-            border-radius: 120px;
-            background-color: rgba(0, 113, 227, 1);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-
-        }
-
-        .b2 {
-            width: 68px;
-            height: 44px;
-            border-radius: 120px;
-            border: solid;
-            border-color: rgba(41, 151, 255, 1);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: rgba(41, 151, 255, 1);
-
-        }
-
-        .b3 {
-            width: 123px;
-            height: 44px;
-            border-radius: 120px;
-            background-color: rgba(255, 255, 255, 1);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: rgba(0, 0, 0, 1);
-
-        }
-
-        .b4 {
-            width: 68px;
-            height: 44px;
-            border-radius: 120px;
-            border: solid;
-            border-color: rgba(255, 255, 255, 1);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: rgba(255, 255, 255, 1);
-
-        }
-
-        .s3-p1 {
-            display: flex;
-            justify-content: center;
-            font-size: 52px;
-            padding-top: 446px;
-        }
-
-        .s3-p2 {
-            display: flex;
-            justify-content: center;
-            font-size: 24px;
-            margin-top: 12px;
-
-        }
-
-        .s3-p3 {
-            display: flex;
-            justify-content: center;
-            font-size: 16px;
-            margin-top: 16px;
-            width: 114px;
-            height: 44px;
-            border-radius: 120px;
-            background-color: rgba(0, 113, 227, 1);
-            align-items: center;
-            color: rgba(255, 255, 255, 1);
-
-
-        }
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
 
 <body>
 
-    <div style="display: flex; justify-content: center;">
+    <!-- header -->
+
+    <div class="header-vector">
+
 
         <div>
-            <img class="Vector" src="images/Vector.png">
-        </div>
-        <div>
-            <a class="Menu" href="Store">Store</a>
-            <a class="Menu" href="Store">Store</a>
-            <a class="Menu" href="Store">Store</a>
-            <a class="Menu" href="Store">Store</a>
-            <a class="Menu" href="Store">Store</a>
-            <a class="Menu" href="Store">Store</a>
-            <a class="Menu" href="Store">Store</a>
-            <a class="Menu" href="Store">Store</a>
-            <a class="Menu" href="Store">Store</a>
-            <a class="Menu" href="Store">Store</a>
-            <a class="Menu" href="Store">Store</a>
-        </div>
-        <div>
-            <img class="Vector" src="images/Vc:search.png">
-            <img class="Vector" src="images/vc:bag.png">
+            <img class="header-vector" src="images/vc:apple.png">
         </div>
 
-    </div>
+        <div class="menu-container">
+            <a class="Menu" href="Store">Store</a>
+            <a class="Menu" href="Store">Store</a>
+            <a class="Menu" href="Store">Store</a>
+            <a class="Menu" href="Store">Store</a>
+            <a class="Menu" href="Store">Store</a>
+            <a class="Menu" href="Store">Store</a>
+            <a class="Menu" href="Store">Store</a>
+            <a class="Menu" href="Store">Store</a>
+            <a class="Menu" href="Store">Store</a>
+            <a class="Menu" href="Store">Store</a>
+            <a class="Menu" href="Store">Store</a>
+        </div>
 
-    <div style="font-size: 14px; display: flex; justify-content: center; padding: 16px;">We’re donating $5 to the
-        Global Fund for every
-        purchase made with Apple Pay at Apple. Through 12/8.
-    </div>
-
-    <div style="background-image: url(images/Background.png); background-repeat: no-repeat;
-            margin: auto; background-size: cover; width: 1920px; height: 692px;">
-        <div class="Word">
-            <div class="p1">iPhone 16 Pro</div>
-            <div class="p2">Hello, Apple Intelligence</div>
-            <div class="button">
-                <div class="b1">Learn more</div>
-                <div class="b2">Buy</div>
+        <div class="vector-container">
+            <div>
+                <img class="header-vector" src="images/Vc:search.png">
             </div>
-
+            <div><img class="header-vector" src="images/vc:bag.png"></div>
+            <div class="vector-menu"><img src="images/menu.png"></div>
         </div>
+
+
+
     </div>
 
-    <div style="background-image: url(images/Figure.png); background-repeat: no-repeat;
-            margin: auto; background-size: cover; width: 1920px; height: 692px; margin-top:  12px;">
+    <!-- header 2 -->
+
+    <div class="header-2">We’re donating $5 to the Global Fund for every purchase made with Apple Pay at Apple. Through
+        12/8.
+    </div>
+
+    <!-- HERO -->
+
+    <div class="Hero">
+
+        <div class="iphone_16_pro_headline">iPhone 16 Pro</div>
+        <div class="iphone_16_pro_subhead">Hello, Apple Intelligence</div>
+        <div class="action_links">
+            <div class="button-primary">Learn more</div>
+            <div class="button-secondary">Buy</div>
+        </div>
+
+
+
+    </div>
+
+
+    <!-- Iphone16 -->
+
+    <div class="iphone_16_background">
         <div class="Word">
             <div class="p1">iPhone 16 Pro</div>
             <div class="p2">Hello, Apple Intelligence</div>
@@ -189,8 +85,7 @@
         </div>
     </div>
 
-    <div style="background-image: url(images/page3.png); background-repeat: no-repeat;
-            margin: auto; background-size: cover; width: 1920px; height: 692px; margin-top:  12px;">
+    <div class="iphone_16_background">
 
         <div class="s3-p1">Gift magic.</div>
         <div class="s3-p2">Make their holiday wish come true.</div>
@@ -199,29 +94,94 @@
         </div>
     </div>
 
-    <div style="display: flex; justify-content: center;">
-        <div style="background-image: url(images/1.png); background-repeat: no-repeat;
-            margin: auto; background-size: cover; width: 942px; height: 580px; padding: 12px ;"></div>
+    <!-- slide 4 -->
+    <div style="display: flex; justify-content: center;padding: 12px; gap: 12px;">
+
+        <div>
+            <div style="background-image: url(images/1.png); background-repeat: no-repeat;
+             background-size: cover; width: 942px; height: 580px; ; ">
+                <div class="s4-p1">iPad air</div>
+                <div class="s4-p2">Two sizes, Faster chip, Does it all</div>
+                <div class="style2-button">
+                    <div class="style2-b1">Learn more</div>
+                    <div class="style2-b2">Buy</div>
+                </div>
+                <div>Hello, Apple Intelligence</div>
+
+            </div>
+        </div>
 
         <div style="background-image: url(images/2.png); background-repeat: no-repeat;
-            margin: auto; background-size: cover; width: 942px; height: 580px; ;"></div>
+             background-size: cover; width: 942px; height: 580px; ; ">
+            <div class="s4-p1">Air pods </div>
+            <div class="s4-p2">Two sizes, Faster chip, Does it all</div>
+            <div class="style2-button">
+                <div class="style2-b1">Learn more</div>
+                <div class="style2-b2">Buy</div>
+            </div>
+
+        </div>
+
     </div>
 
-    <div style="display: flex; justify-content: center;">
-        <div style="background-image: url(images/1.png); background-repeat: no-repeat;
-            margin: auto; background-size: cover; width: 942px; height: 580px; ;"></div>
+    <div style="display: flex; justify-content: center;padding: 12px; gap: 12px;">
 
-        <div style="background-image: url(images/2.png); background-repeat: no-repeat;
-            margin: auto; background-size: cover; width: 942px; height: 580px; ;"></div>
+        <div>
+            <div style="background-image: url(images/3.png); background-repeat: no-repeat;
+             background-size: cover; width: 942px; height: 580px; ; ">
+                <div class="s4-p1">iPad air</div>
+                <div class="s4-p2">Two sizes, Faster chip, Does it all</div>
+                <div class="style2-button">
+                    <div class="style2-b1">Learn more</div>
+                    <div class="style2-b2">Buy</div>
+                </div>
+
+            </div>
+        </div>
+
+        <div style="background-image: url(images/4.png); background-repeat: no-repeat;
+             background-size: cover; width: 942px; height: 580px; ; ">
+            <div class="s4-p1">iPad air</div>
+            <div class="s4-p2">Two sizes, Faster chip, Does it all</div>
+            <div class="style2-button">
+                <div class="style2-b1">Learn more</div>
+                <div class="style2-b2">Buy</div>
+            </div>
+
+        </div>
+
     </div>
 
-    <div style="display: flex; justify-content: center;">
-        <div style="background-image: url(images/1.png); background-repeat: no-repeat;
-            margin: auto; background-size: cover; width: 942px; height: 580px; ;"></div>
+    <div style="display: flex; justify-content: center;padding: 12px; gap: 12px;">
 
-        <div style="background-image: url(images/2.png); background-repeat: no-repeat;
-            margin: auto; background-size: cover; width: 942px; height: 580px; ;"></div>
+        <div>
+            <div style="background-image: url(images/5.png); background-repeat: no-repeat;
+             background-size: cover; width: 942px; height: 580px; ; ">
+                <div class="s4-p1">iPad air</div>
+                <div class="s4-p2">Two sizes, Faster chip, Does it all</div>
+                <div class="style2-button">
+                    <div class="style2-b1">Learn more</div>
+                    <div class="style2-b2">Buy</div>
+                </div>
+
+            </div>
+        </div>
+
+        <div style="background-image: url(images/6.png); background-repeat: no-repeat;
+             background-size: cover; width: 942px; height: 580px; ; ">
+            <div class="s4-p1">iPad air</div>
+            <div class="s4-p2">Two sizes, Faster chip, Does it all</div>
+            <div class="style2-button">
+                <div class="style2-b1">Learn more</div>
+                <div class="style2-b2">Buy</div>
+            </div>
+
+        </div>
+
     </div>
+
+
+
 
 
 
