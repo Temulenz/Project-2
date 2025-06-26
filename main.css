@@ -7,6 +7,10 @@
 
 }
 
+body {
+    max-width: 2000px;
+}
+
 /* header */
 
 .header-vector {
@@ -71,7 +75,7 @@
     }
 }
 
-@media (max-width:390px) {
+@media (max-width:450px) {
     .header-2 {
         display: flex;
         justify-content: center;
@@ -141,7 +145,7 @@
     color: rgba(41, 151, 255, 1);
 }
 
-@media (max-width:420px) {
+@media (max-width:450px) {
     .Hero {
         background-image: url(images/herp_small_size.png);
         height: 500px;
@@ -235,7 +239,7 @@
     color: rgba(255, 255, 255, 1);
 }
 
-@media (max-width:420px) {
+@media (max-width:450px) {
 
     .iphone_16_background {
         background-image: url(images/iphon16-small-size.png);
@@ -306,6 +310,7 @@
     display: flex;
     justify-content: center;
     margin-top: 12px;
+    text-align: center;
 }
 
 .Gift_magic_button {
@@ -346,16 +351,11 @@
     background-repeat: no-repeat;
 }
 
-@media (max-width: 450px) {
-    .products {
-        flex-direction: column;
-    }
-
-    .products-items {
-        width: 100%;
-    }
+.products-items:nth-child(3),
+.products-items:nth-child(6),
+.products-items:nth-child(7) {
+    display: none;
 }
-
 
 .products-items:nth-child(2) {
     background-image: url(images/2.png);
@@ -377,12 +377,27 @@
     background-image: url(images/6.png);
 }
 
+.products-items:nth-child(7) {
+    background-image: url(images/7.png);
+}
+
+.products-items:nth-child(8) {
+    background-image: url(images/8.png);
+}
+
+.products-items:nth-child(9) {
+    background-image: url(images/9.png);
+}
+
+
+
 .products-items-headline {
     font-size: 32px;
     display: flex;
     justify-content: center;
     padding-top: 58px;
     font-weight: 600;
+    text-align: center;
 }
 
 .products-items-subhead {
@@ -391,6 +406,7 @@
     justify-content: center;
     margin-top: 9px;
     color: black;
+    text-align: center;
 }
 
 
@@ -459,48 +475,164 @@
     padding: 4px;
 }
 
-.products-items:nth-child(3) .products-items-subhead {
+.products-items:nth-child(4) .products-items-subhead {
     margin: 0;
 }
 
-.products-items:nth-child(3) .action_links {
+.products-items:nth-child(4) .action_links {
     margin-top: 16px;
 }
 
-.products-items:nth-child(4) .products-items-headline {
+.products-items:nth-child(5) .products-items-headline {
     padding-top: 48px;
 }
 
-.products-items:nth-child(4) .products-items-subhead {
+.products-items:nth-child(5) .products-items-subhead {
     margin-top: 2px;
 }
 
-.products-items:nth-child(4) .action_links {
+.products-items:nth-child(5) .action_links {
     margin-top: 10px;
 }
 
-.products-items:nth-child(5) .products-items-subhead {
+.products-items:nth-child(8) .products-items-subhead {
     text-align: center;
     margin-top: 4px;
 }
 
-.products-items:nth-child(5) .products-button-primary {
+.products-items:nth-child(8) .products-button-primary {
     width: 167px;
 }
 
-.products-items:nth-child(5) .action_links {
+.products-items:nth-child(8) .action_links {
     margin-top: 16px;
 }
 
-.products-items:nth-child(6) .products-items-subhead {
+.products-items:nth-child(9) .products-items-subhead {
     text-align: center;
     margin-top: 4px;
 }
 
-.products-items:nth-child(6) .products-button-secondary {
+.products-items:nth-child(9) .products-button-secondary {
     width: 112px;
 }
 
-.products-items:nth-child(6) .action_links {
+.products-items:nth-child(9) .action_links {
     margin-top: 16px;
+}
+
+.products-items:nth-child(3) .products-items-headline {
+    color: rgba(245, 245, 247, 1);
+    margin-top: 287px;
+}
+
+.products-items:nth-child(3) .products-items-subhead {
+    color: rgba(245, 245, 247, 1);
+    margin-top: 4px;
+}
+
+.products-items:nth-child(3) .products-items-headline {
+    color: rgba(245, 245, 247, 1);
+}
+
+
+
+.products-items:nth-child(6) .products-items-headline {
+    color: rgba(29, 29, 31, 1);
+    margin-top: 42px;
+    padding-top: 0px;
+}
+
+.products-items:nth-child(6) .products-items-subhead {
+    color: rgba(29, 29, 31, 1);
+    margin-top: 4px;
+}
+
+
+
+.products-items:nth-child(7) .products-items-headline {
+    color: rgba(29, 29, 31, 1);
+    margin-top: 296px;
+    padding-top: 0px;
+
+}
+
+.products-items:nth-child(7) .products-items-subhead {
+    color: rgba(29, 29, 31, 1);
+
+    margin-top: 4px;
+}
+
+.products-items:nth-child(7) .products-button-primary {
+    width: 126px;
+}
+
+
+
+
+@media (max-width:750px) {
+    .products-items:nth-child(1) {
+        width: 100%;
+    }
+
+    .products-items:nth-child(2),
+    .products-items:nth-child(9) {
+        display: none;
+    }
+
+    .products-items:nth-child(3),
+    .products-items:nth-child(6),
+    .products-items:nth-child(7) {
+        display: block;
+    }
+
+}
+
+@media (max-width: 450px) {
+    .products {
+        flex-direction: column;
+    }
+
+    .products-items {
+        width: 100%;
+    }
+}
+
+/* FOOTER */
+
+.slides-container {
+    width: 100%;
+    overflow: scroll;
+
+}
+
+.slides {
+    display: flex;
+    width: 5800px;
+    gap: 12px;
+}
+
+.slide {
+    height: 700px;
+    width: 1200px;
+    background-image: url(images/mongol.jpg);
+    margin-top: 12px;
+    box-sizing: border-box;
+}
+
+.slide:nth-child(3) {
+    background-image: url(images/tor.jpg);
+}
+
+.slide:nth-child(4) {
+    background-image: url(images/himo.jpg);
+    background-position: center;
+}
+
+.slide:nth-child(5) {
+    background-image: url(images/37-tochkar.jpg);
+}
+
+.slide:nth-child(2) {
+    background-image: url(images/mongolzzzrrr.jpg);
 }
