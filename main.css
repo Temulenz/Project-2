@@ -8,7 +8,8 @@
 }
 
 body {
-    max-width: 2000px;
+    max-width: 1960px;
+
 }
 
 /* header */
@@ -602,7 +603,7 @@ body {
 
 .slides-container {
     width: 100%;
-    overflow: scroll;
+    overflow: auto;
 
 }
 
@@ -613,7 +614,7 @@ body {
 }
 
 .slide {
-    height: 700px;
+    aspect-ratio: 16/9;
     width: 1200px;
     background-image: url(images/mongol.jpg);
     margin-top: 12px;
@@ -635,4 +636,75 @@ body {
 
 .slide:nth-child(2) {
     background-image: url(images/mongolzzzrrr.jpg);
+}
+
+.small_slide-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.small_slides {
+    display: flex;
+    width: 2085px;
+    gap: 16px;
+}
+
+.small_slide {
+    height: 236px;
+    width: 100%;
+    background-image: url(images/fragile\ \(1\).png);
+    margin-top: 32px;
+    box-sizing: border-box;
+    aspect-ratio: 16/9;
+    background-position: center;
+}
+
+.small_slide:nth-child(2) {
+    background-image: url(images/comedy\ \(1\).jpeg);
+}
+
+.small_slide:nth-child(3) {
+    background-image: url(images/music\ \(1\).jpg);
+}
+
+.small_slide:nth-child(4) {
+    background-image: url(images/podcast\ \(1\).jpg);
+}
+
+.small_slide:nth-child(5) {
+    background-image: url(images/amusic\ \(1\).jpg);
+}
+
+.small_slide:nth-child(6) {
+    background-image: url(images/fitness\ \(1\).jpg);
+}
+
+@media (max-width: 768px) {
+    .slides {
+        width: 2700px;
+    }
+
+    .slide {
+        height: 368px;
+        width: 650px;
+        background-image: url(images/mongol-m.jpg);
+    }
+
+    .slide:nth-child(2) {
+        background-image: url(images/mongolzzz.jpg);
+    }
+
+    .slide:nth-child(3) {
+        background-image: url(images/tur-m.jpg);
+        width: 550px;
+    }
+
+    .slide:nth-child(4) {
+        background-image: url(images/himo-m.jpg);
+        width: 200px;
+    }
+
+    .slide:nth-child(5) {
+        background-image: url(images/37-tochka-m.jpg);
+    }
 }
