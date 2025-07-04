@@ -11,6 +11,7 @@ body {
     max-width: 1920px;
     background-color: rgba(245, 245, 247, 1);
     margin-left: 140px;
+
 }
 
 
@@ -146,7 +147,7 @@ body {
 }
 
 .card-container {
-    position: relative;
+    position: relative
 }
 
 .card-img-full {
@@ -273,7 +274,8 @@ body {
     gap: 20px;
 }
 
-.section-3-card-image-full {}
+
+
 
 .section-3-image {
     width: 480px;
@@ -324,7 +326,7 @@ body {
     color: rgba(29, 29, 31, 1);
     position: absolute;
     top: 50px;
-    left: 30px;
+    left: 1196px;
     width: 305px;
     height: 130px;
 }
@@ -335,7 +337,90 @@ body {
     color: rgba(29, 29, 31, 1);
     position: absolute;
     top: 50px;
-    left: 1196px;
+    left: 1700px;
     width: 305px;
     height: 130px;
+}
+
+.tittle {
+    font-size: 12px;
+    color: rgba(110, 110, 115, 1);
+    font-weight: 700;
+
+}
+
+.tittle-2 {
+    font-size: 12px;
+    color: rgba(245, 245, 247, 1);
+    font-weight: 700;
+
+}
+
+.apple-description {
+    font-size: 26px;
+    color: rgba(29, 29, 31, 1);
+    font-weight: 700;
+    margin-top: 8px;
+}
+
+.p1 {
+    font-size: 17px;
+    color: rgba(29, 29, 31, 1);
+}
+
+.apple-container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: 140px;
+    justify-content: space-between;
+    top: 32px;
+    left: 30px;
+
+}
+
+.a-container {
+    top: 32px;
+    left: 30px;
+}
+
+.apple-description-2 {
+    font-size: 26px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+    margin-top: 8px;
+}
+
+.card-img-full-2 {
+    width: 400px;
+    height: 500px;
+}
+
+.quick-links-tittle {
+    margin-top: 60px;
+    font-size: 26px;
+    font-weight: 700;
+    color: rgba(29, 29, 31, 1);
+    margin-bottom: 24px;
+}
+
+.quick-links-list {
+    display: flex;
+    width: 125px;
+    height: 40px;
+    border: solid rgba(29, 29, 31, 1);
+    justify-content: space-around;
+    border-radius: 120px;
+    align-items: center;
+    text-align: center;
+}
+
+.q-img {
+    width: 8px;
+    height: 8px;
+}
+
+.quick-links-container {
+    display: flex;
+    gap: 12px;
 }
